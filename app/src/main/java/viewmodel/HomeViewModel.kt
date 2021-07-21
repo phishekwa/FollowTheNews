@@ -5,7 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import data.ArticleModel
 import data.Repo
 
-class HomeViewMode {
+class HomeViewModel {
     private var homeRepository:Repo?=null
     var postModelListLiveData : LiveData<List<ArticleModel>>?=null
 

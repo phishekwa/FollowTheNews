@@ -8,7 +8,7 @@ import com.example.followthenews.R
 import data.ArticleModel
 import kotlinx.android.synthetic.main.item_view.view.*
 
-class Adapter: RecyclerView.Adapter<Adapter.ViewHolder>() {
+class Adapter(mainActivity: MainActivity) : RecyclerView.Adapter<Adapter.ViewHolder>() {
 
     private var data : ArrayList<ArticleModel>?=null
 
